@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/BluePine-1.0.war
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/BluePine-1.0.jar

@@ -12,7 +12,7 @@
 	<groupId>com.cipheric</groupId>
 	<artifactId>BluePine</artifactId>
 	<version>1.0</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>BluePine</name>
 	<description>Household items tracker</description>
 	<properties>
@@ -50,14 +50,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<artifactId>maven-war-plugin</artifactId>
-				 
-				<configuration>
-					<warSourceDirectory>WebContent</warSourceDirectory>
-					<failOnMissingWebXml>false</failOnMissingWebXml>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
